@@ -111,11 +111,6 @@ This function also calls malloc(24) but this time, it reads 24 bytes of our inpu
 This function frees the itemname from any item, if it exists.
 
 
-## to recap ##
-- add_item(0)       ptr_0 = malloc(24)
-- remove_item(0)    free(ptr_0)
-- 
-
 
 # Use After Free #
 This application is vulnerable to a so called `use-after-free`.
